@@ -5,9 +5,6 @@
 #include "miniaudio.h"
 #include <cstring>
 
-#define DEVICE_FORMAT       ma_
-#define DEVICE_CHANNELS     1
-#define DEVICE_SAMPLE_RATE  44100
 
 static void AudioCallbackWrap(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount);
 
